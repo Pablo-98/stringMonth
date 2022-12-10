@@ -33,6 +33,18 @@ public class stringMonth {
         month.equalsIgnoreCase("May")) {
             season = "Spring";
         }
+        else if(month.equalsIgnoreCase("June") || 
+        month.equalsIgnoreCase("July") ||
+        month.equalsIgnoreCase("August")) {
+            season = "Summer";
+
+        }
+        else if(month.equalsIgnoreCase("September") || month.equalsIgnoreCase("Sep") ||
+        month.equalsIgnoreCase("October") || month.equalsIgnoreCase("Oct") ||
+        month.equalsIgnoreCase("November") || month.equalsIgnoreCase("Nov")) {
+            season = "Fall";
+        }
+        
 
 
 
