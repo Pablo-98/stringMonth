@@ -24,9 +24,14 @@ public class stringMonth {
         if(month.equalsIgnoreCase("December") || month.equalsIgnoreCase("Dec") || 
         month.equalsIgnoreCase("January") || month.equalsIgnoreCase("Jan") || 
         month.equalsIgnoreCase("February") || month.equalsIgnoreCase("Feb")){
-            
+
             // season is equal to the string "Winter" I dont know why we dont use ' == ' here
             season = "Winter";
+        }
+        else if(month.equalsIgnoreCase("March") || month.equalsIgnoreCase("Mar")) ||
+        month.equalsIgnoreCase("April") || month.equalsIgnoreCase("Apr") || 
+        month.equalsIgnoreCase("May")) {
+            season = "Spring";
         }
 
 
