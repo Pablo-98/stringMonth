@@ -28,7 +28,7 @@ public class stringMonth {
             // season is equal to the string "Winter" I dont know why we dont use ' == ' here
             season = "Winter";
         }
-        else if(month.equalsIgnoreCase("March") || month.equalsIgnoreCase("Mar")) ||
+        else if(month.equalsIgnoreCase("March") || month.equalsIgnoreCase("Mar") ||
         month.equalsIgnoreCase("April") || month.equalsIgnoreCase("Apr") || 
         month.equalsIgnoreCase("May")) {
             season = "Spring";
@@ -51,6 +51,7 @@ public class stringMonth {
             JOptionPane.showMessageDialog(null, "invalid month");
             season = "invalid season";
         }
+        System.out.println("Your month is " + month + " and your favorite season is " + season + ".");
 
 
 
