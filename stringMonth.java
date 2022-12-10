@@ -11,5 +11,7 @@ public class stringMonth {
         String month;
         String season;
 
+        month = JOptionPane.showInputDialog("what is your favorite month");
+
     }
 }
