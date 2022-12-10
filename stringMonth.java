@@ -44,7 +44,13 @@ public class stringMonth {
         month.equalsIgnoreCase("November") || month.equalsIgnoreCase("Nov")) {
             season = "Fall";
         }
-        
+        // all if/else if statements have to end with an else statement 
+
+        // this else statement catches a user input that is unknown. I dont know why the showmessageDialog attribute needs null for the first argument 
+        else { 
+            JOptionPane.showMessageDialog(null, "invalid month");
+            season = "invalid season";
+        }
 
 
 
